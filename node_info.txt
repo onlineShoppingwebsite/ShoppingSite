@@ -1,0 +1,47 @@
+nodejs
+==========================
+1) threading (single threading)
+2) About non-blocking I/O 
+3) about SSR vs CSR
+---------------------------------------
+5) function list
+	createServer()		// create new server 
+	write()			//  write message on document
+	end()			// end of request 
+	listen()		// run server at port no 
+Note: can't use 6000 port no
+--------------------------------------------------------
+
+6) generate package.json
+	npm init
+	npm init -y
+	
+7) nodemon (package)	// restart server after change in server file 
+	1) npm install nodemon
+	2) config into package.json
+	   "start": "nodemon server.js"
+
+Note: types of module ( commonJS , module)
+
+8) .env(package)
+	1) npm install dotenv
+	2) create file name must have .env
+	3) import 
+		import { configDotenv } from 'dotenv';
+		configDotenv();
+	4) access variable from 
+		const port =process.env.PORT || 8700;
+----------------------------------------------------
+9) node routing 
+	1) if
+	2) switch 	// bast 
+
+
+
+
+
+
+
+
+ 
+	
